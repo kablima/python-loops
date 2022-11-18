@@ -8,12 +8,12 @@ def info_over_time():
         total_days += 1
         total_hours += float(daily)
         average = total_hours/total_days
-    print(f'Average of {total_hours: 0.1f} hours over {total_days} days')
+    print(f'Average of {average: 0.1f} hours over {total_days} days')
 
 info_over_time()
 
-#Hours programming: 7
-#Hours programming: 9
-#Hours programming: 5
+#Hours programming: 4
+#Hours programming: 8
+#Hours programming: 3
 #Hours programming: 
-#Average of  21.0 hours over 3 days
+#Average of  5.0 hours over 3 days
